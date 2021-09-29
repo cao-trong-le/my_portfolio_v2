@@ -43,7 +43,7 @@ class MyProjects extends React.Component{
                   </button>
               </div>
 
-              <div>
+              {/* <div>
                 <img className="weather-forecast-app" src="weather_forecast_website.jpg" alt="error" />
                 <b className="project-name">Weather Forecast App</b>
                 <p className="project-description">
@@ -55,7 +55,7 @@ class MyProjects extends React.Component{
                     onClick={this.gotoProject}>
                   Read More &gt;&gt;
                 </button>
-              </div>
+              </div> */}
           </div>
       </ProjectSection>
     )

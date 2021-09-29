@@ -36,7 +36,11 @@ const ResumeViewer = (props) => {
         >
             {/* {console.log(isClose)} */}
             <div className="resume-modal-title">
-                <h1>My Resume</h1>
+                <h1 
+                    style={{paddingLeft: "10px"}}
+                    className="title">
+                        My Resume
+                </h1>
             </div>
 
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.js">
@@ -47,7 +51,7 @@ const ResumeViewer = (props) => {
                     }}
                 >
                     <Viewer
-                        fileUrl='Cao_Resume.pdf'
+                        fileUrl='resume_2.pdf'
                         initialPage={3}
                         theme='dark'
                         plugins={[

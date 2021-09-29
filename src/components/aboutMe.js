@@ -78,7 +78,7 @@ class AboutMe extends React.Component{
                     </p>
 
                     <p>
-                        Currently, I'm still looking for a web or app development job.
+                        Currently, I'm still looking for a web or app development job. I would love to hear from you whether it's about a project or job opportunity, or just a chat. Feel free to contact me.
                     </p>
                 </div>
 
@@ -91,7 +91,8 @@ class AboutMe extends React.Component{
                         marginTop: "5px"
                     }}>
 
-                        <p>Find more about me on Linkedin and Github</p>
+                        
+                        <p><i className="far fa-star"></i> Find more about me on Linkedin and Github</p>
                         <span
                             className="view-linkedln-profile" 
                             onClick={this.gotoLinkedProfile}>
@@ -108,13 +109,13 @@ class AboutMe extends React.Component{
                             <p>github.com/cao-trong-le/</p>
                         </span>
 
+                
                         <p 
                             style={{ 
                                 marginTop: "25px",
                                 marginBottom: "5px" 
                             }}>
-
-                            Check out my resume for more information 
+                            <i className="far fa-star"></i> Check out my resume for more information 
                         </p>
 
                         <span 
